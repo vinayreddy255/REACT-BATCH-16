@@ -1,0 +1,11 @@
+#div1{
+    background: blue;
+}
+
+.div-class {
+    background: pink;
+}
+
+div{
+    background-color: red !important;
+}
