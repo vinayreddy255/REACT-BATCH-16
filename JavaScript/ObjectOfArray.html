@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    var obj = {
+      name: "Ram",
+      age: 25,
+      address: {
+        landMark: "postoffice",
+        pin: 123,
+        mobileList: ["apple", "nokia", "samsung"],
+      },
+      citysList: [
+        "Hyderbad",
+        "Bangalore",
+        "Hyderbad",
+        { address: { pinCode: "1234", landMark: "Near Temaple" } },
+      ],
+    };
+
+    console.log(obj.address.mobileList[1]);
+    console.log(obj.citysList[3].address.landMark);
+  </script>
+</html>
